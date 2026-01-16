@@ -1,4 +1,4 @@
-FROM tomcat
+FROM tomcat:11.0.15-jdk25-temurin-noble
 MAINTAINER admin@albinsblog.com
 
 COPY tomcat-users.xml /usr/local/tomcat/conf/tomcat-users.xml
